@@ -1,0 +1,139 @@
+
+.homepage {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*----------First----------*/
+.first_section {
+	position: relative;
+	margin-bottom: 80px;
+	padding: 0;
+
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.first_section_details {
+	position: absolute;
+	top: 70px;
+	left: 148px;
+
+	button {
+		margin-top: 10px;
+	}
+}
+
+/*---------Second----------*/
+.second_section {
+	margin-bottom: 80px;
+}
+
+.second_section_products {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.products_info img {
+	max-width: 382px;
+}
+
+.products_info p {
+	transform: translate(10px, -25px);
+}
+
+/*----------Third----------*/
+.third_section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #F7EEE3;
+	margin-bottom: 80px;
+}
+.third_section_details {
+	max-width: 300px;
+	max-height: 90px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+
+/*----------Fourth----------*/
+.fourth_section {
+	margin-bottom: 80px;
+}
+
+.fourth_section_photos img {
+	width: 288px;
+}
+
+/*----------Fifth----------*/
+.fifth_section {
+	width: 100%;
+	padding: 0;
+	background: #F7EEE3;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 80px;
+
+	img {
+		width: 100%;
+		max-width: 696px;
+		width: 100%;
+		margin-left: auto;
+}
+}
+
+.fifth_section_description {
+	width: 292px;
+	height: 152px;
+	flex-shrink: 0;
+	padding-left: 147px;
+	padding-top: 100px;
+}
+
+/*----------------sixth section----------------------*/
+
+.sixth_section {
+	overflow: scroll;
+	margin-bottom: 22px;
+}
+
+.sixth_section_photos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap: 9px;
+	border-radius: 4px;
+}
+
+.sixth_section_photos img {
+	width: 300px;
+	height: 300px;
+}
+
+
+/*----------------seventh section----------------------*/
+
+.seventh_section {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 22px;
+	margin-bottom: 80px;
+}
+
+.seventh_section video {
+	width: 100%;
+	margin-bottom: 12px;
+}
