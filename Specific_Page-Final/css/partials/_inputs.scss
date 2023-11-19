@@ -1,0 +1,38 @@
+.input_options {
+	gap: 10px;
+}
+
+.radio_options {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+
+input[type="radio"]{
+	display: none;
+}
+
+
+.ball {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	border-radius: 50%;
+}
+
+.blue{
+	background-color: #011F89;
+}
+
+.green {
+	background-color: #3D8901;
+}
+
+.red {
+	background-color: #890109;
+}
+
+.black {
+	background-color: #131313;
+}
+

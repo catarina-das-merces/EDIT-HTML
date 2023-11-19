@@ -1,0 +1,25 @@
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	margin-bottom: 60px;
+
+	img {
+		max-width: 100px;
+		max-height: 100px;
+		flex-shrink: 0;
+	}
+
+	.menu__links button{
+		gap: 10px;
+	}
+}
+
+.hamburguer__menu img {
+	max-width: 18px;
+	max-height: 15px;
+	display: none;
+}
+
