@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Card Product</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500&display=swap"
+		rel="stylesheet">
+
+	<style>
+		.cartao {
+			background-color: white;
+			width: 350px;
+			height: 315px;
+			font-family: 'Inter', sans-serif;
+			text-align: center;
+			border-radius: 20px;
+			border: 0.5px solid rgb(203, 200, 200);
+			box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(203, 200, 200);
+		}
+
+		.imagem {
+			margin-top: 8px;
+			position: relative;
+		}
+
+		.icon {
+			position: absolute;
+			right: 20px;
+			top: 8px;
+		}
+
+		.produto {
+			text-align: left;
+			margin-left: 20px;
+			color: #425466;
+			font-weight: 600;
+			text-shadow: 1px 1px gray;
+		}
+
+		.preco {
+			text-align: left;
+			margin-left: 20px;
+			font-weight: 600;
+			font-size: 20px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="cartao">
+		<div class="imagem">
+			<img src="assets/rounded.png">
+			<img class="icon" src="assets/large.png">
+		</div>
+		<p class="produto">Product Name</p>
+		<p class="preco">$399</p>
+	</div>
+</body>
+
+</html>
